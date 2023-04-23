@@ -17,8 +17,8 @@ function HowMakeMoney(initialMoney = 10000) {
   console.table(changeArray);
   console.log(
     `金额${initialMoney}，需要${
-      changeArray.length + 1
-    }次提现服务费，单次耗时按${delay / 1000}s，总耗时${delay * changeArray.length + 1}s`
+      changeArray.length
+    }次提现服务费，单次耗时按${delay / 1000}s，总耗时${delay * changeArray.length}s`
   );
 }
 
